@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Creador: Juan3817381
+# Creador: Slax38
 # RouterDEP v2.0 Mejora de diseño y mas metodos de ataques
 
 # Colores
@@ -94,7 +94,7 @@ sleep 0.1 && echo -e $cyan " #             #    #                       #       
 sleep 0.1 && echo -e $cyan " #           #      #                       #               "
 sleep 0.1 && echo -e $red  " # #########        ##################      #               "
 sleep 0.1 && echo -e $cyan " -----------------------------------------------------------"
-sleep 0.1 && echo -e $cyan "                      Router${red}DEP$cyan 2.${red}0           $red by$cyan Juan3817381"
+sleep 0.1 && echo -e $cyan "                      Router${red}DEP$cyan 2.${red}0           $red by$cyan Slax38"
 echo
 echo -e " ${cyan}1${red})$cyan Beacon Flooding"
 echo
@@ -118,7 +118,7 @@ if [[ $REPLY =~ ^[1-8]$ ]]; then
     if [[ $REPLY == 8 ]]; then
         clear
         echo
-        echo -e "${cyan}Router${red}DEP$cyan 2.${red}0$cyan -$red by$cyan Juan3817381"
+        echo -e "${cyan}Router${red}DEP$cyan 2.${red}0$cyan -$red by$cyan Slax38"
         sleep 0.3
         exit
 fi
